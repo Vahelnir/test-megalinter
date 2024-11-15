@@ -13,8 +13,11 @@ const STATES = {
   STANDBY: 0,
   STARTED: 1,
   PAUSED: 2,
-  RETRYING: 3,
+      RETRYING: 3,
   FINISHED: 4
+
+
+
 }
 
 class Download extends EventEmitter {
